@@ -1,0 +1,37 @@
+body{
+    background: seagreen;
+}
+.white-keys kbd{
+    font-family: Alef;
+    font-size: 1.4rem;
+    border: 1px solid darkgrey;
+    height: 60px;
+    width: 80px;
+    padding-top: 190px;
+    display: inline-block;
+    color: black;
+    background: white;
+}
+.black-keys kbd{
+    position: relative;
+    bottom: 252px;
+    right: 60px;
+    margin-left: 30px;
+    font-family: Alef;
+    font-size: 1.2rem;
+    border: 1px solid darkgrey;
+    height: 70px;
+    width: 50px;
+    padding-top: 80px;
+    display: inline-block;
+    color: white;
+    background: black;
+}
+.black-keys kbd:nth-last-child(-n+3){
+    right: -30px;
+}
+.container{
+    width: 100%;
+    margin: 10% auto;
+    text-align: center;
+}
